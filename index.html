@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>About Me — Cyber</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="bg-visual" aria-hidden="true"></div>
+  <header class="topbar">
+    <div class="brand">CYBER • <span class="name">Zenixe</span></div>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="avatar" role="img" aria-label="Avatar">
+        <svg viewBox="0 0 120 120" class="avatar-svg" xmlns="https://cdn.discordapp.com/attachments/1277269662656364604/1381488872084734083/zennnn.png?ex=68e9dbc5&is=68e88a45&hm=fc28841350587052a32cad9774c2cd973568d1ddbc8940bea11c44d86027c21b&">
+          <defs>
+            <radialGradient id="g" cx="30%" cy="30%">
+              <stop offset="0%" stop-color="#4fffd6" stop-opacity="1"/>
+              <stop offset="60%" stop-color="#00c3ff" stop-opacity="0.2"/>
+            </radialGradient>
+          </defs>
+          <rect width="100%" height="100%" rx="20" fill="rgba(0,0,0,0.3)"/>
+          <circle cx="60" cy="50" r="28" fill="url(#g)" />
+        </svg>
+      </div>
+
+      <div class="hero-text">
+        <h1>Halo, saya <span class="accent">Zenixe</span></h1>
+        <p class="role">Saya <span id="typed"></span><span class="cursor">|</span></p>
+        <p class="lead">Seorang pengembang web yang suka estetika gelap, antarmuka cepat, dan solusi elegan. Saya membangun aplikasi yang bersih dan mudah dipelihara.</p>
+        <p class="cta-row">
+          <a class="btn" href="#contact">Hubungi</a>
+          <a class="btn ghost" href="#skills">Lihat Skill</a>
+        </p>
+      </div>
+    </section>
+
+    <section id="about" class="card">
+      <h2>Tentang Saya</h2>
+      <p>Saya memiliki ketertarikan pada front-end, interaksi pengguna, dan desain sistem. Saya menggabungkan estetika cyber neon dengan prinsip aksesibilitas dan performa.</p>
+      <ul>
+        <li>Berasal dari: Wonogiri</li>
+        <li>Pendidikan: Jurusan / Bootcamp</li>
+        <li>Minat: UI/UX, Animasi, Arsitektur Front-end</li>
+      </ul>
+    </section>
+
+    <section id="skills" class="card">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <span class="skill">HTML</span>
+        <span class="skill">CSS</span>
+        <span class="skill">JavaScript</span>
+        <span class="skill">React</span>
+        <span class="skill">Node.js</span>
+        <span class="skill">TypeScript</span>
+      </div>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>Ingin bekerja sama? Klik email untuk menyalin alamat ke clipboard.</p>
+      <p><button id="emailBtn" class="btn">zennexell@gmail.com</button>
+      <a class="muted" href="#" id="resume">Download Resume</a></p>
+    </section>
+
+    <footer class="footer card">
+      <small>© <span id="year"></span> Zenixe — Built with cyber vibes</small>
+    </footer>
+  </main>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
